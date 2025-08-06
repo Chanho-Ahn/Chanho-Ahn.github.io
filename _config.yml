@@ -22,10 +22,10 @@ repository               : "Chanho-Ahn.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpeg"
   name             : "Chanho Ahn"
-  pronouns         : "he/his"
-  bio              : # "Short biography for the left-hand sidebar"
+  pronouns         : # "he/his"
+  bio              : "AI researcher specializing in large model training and adaptation"
   location         : "Suwon, Korea"
   employer         : "Samsung AI Center"
   email            : "mychahn@snu.ac.kr" 
