@@ -11,16 +11,18 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Electrical Engineering and Computer Science, Seoul National University, 2022
+* B.S. in Electrical Engineering and Computer Science, Seoul National University, 2016
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Mar. 2022 - Present: Staff Researcher
+  * Samsung AI Center (/formerly SAIT/)
+
+* Mar. 2016 - Feb. 2022: Graduate Researcher
+  * Seoul National University
+  * Research Area: Deep Learning Architecture, Continual Learning
+  * Supervisor: Songhwai Oh
 
 * Fall 2015: Research Assistant
   * GitHub University
