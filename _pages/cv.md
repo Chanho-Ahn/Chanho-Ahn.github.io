@@ -36,17 +36,17 @@ Projects
 * Development of Cloud Robot Intelligence Augmentation, Sharing and Framework Technology to Integrate and Enhance the Intelligence of Multiple Robots, MSIT/IITP, 2021
   * Project Participant
   * Deep learning architecture including dynamic inference path to deal with multiple robot tasks
-* [SW Star Lab] Robot Learning: Efficient, Safe, and Socially-Acceptable Machine Learning, MSIT/IITP, 2019 - 2021
+* [SW Star Lab] Robot Learning: Efficient, Safe, and Socially-Acceptable Machine Learning, MSIT/IITP, 2019-2021
   * Project Lead
   * Efficient deep learning architecture for anytime prediction in robot domain
   * Continual learning in robot domain
-* Brain-Inspired AI with Human-Like Intelligence, MSIT/IITP, 2019 - 2021
+* Brain-Inspired AI with Human-Like Intelligence, MSIT/IITP, 2019-2021
   * Project Participant
   * Continual learning
-* Realistic 4D Reconstruction of Dynamic Objects, 'The Cross-Ministry Giga KOREA Project' by MSIT, 2017 - 2020
+* Realistic 4D Reconstruction of Dynamic Objects, 'The Cross-Ministry Giga KOREA Project' by MSIT, 2017-2020
   * Project Participant
   * Matching algorithm between rigid partial object parts at different moments
-* On-the-Fly Machine Learning for Evolving Intelligent CPSs, 'The Next-Generation Information Computing Development Program' by ICT/NRF, 2017 - 2018
+* On-the-Fly Machine Learning for Evolving Intelligent CPSs, 'The Next-Generation Information Computing Development Program' by ICT/NRF, 2017-2018
   * Project Lead
   * Efficient deep learning architecture for anytime prediction
 
@@ -62,7 +62,7 @@ Awards and Honors
   
 Professional Services
 ======
-* Peer Reviewer for Conference, CVPR, ICML, NeurIPS, ICCV, ECCV, 2020 - Present
+* Peer Reviewer for Conference, CVPR, ICML, NeurIPS, ICCV, ECCV, 2019-Present
 * Peer Reviewer for Journal, Transactions on Neural Networks and Learning Systems, Neurocomputing
 * Technical Consultant & Software Developer (Part-time), helloALGO, 2021
   * Automatic Coding Assistant Algorithm
@@ -72,6 +72,6 @@ Professional Services
 Teaching
 ======
 * Invited Talk, Mathematics in AI, 칠보고등학교, 2024
-* Graduation Project, 2018 - 2021
+* Graduation Project, 2018-2021
 * Teaching Assistant, Estimation Theory, 2019
 * Teaching Assistant, Introduction to Intelligent Systems, 2016
