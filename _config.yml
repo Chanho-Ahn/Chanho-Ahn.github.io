@@ -25,7 +25,9 @@ author:
   avatar           : "profile.jpeg"
   name             : "Chanho Ahn"
   pronouns         : # "he/his"
-  bio              : "AI researcher specializing in large model training and adaptation"
+  bio              : |
+        AI researcher specializing in
+        large model training and adaptation
   location         : "Suwon, Korea"
   employer         : "Samsung AI Center"
   email            : "mychahn@snu.ac.kr" 
