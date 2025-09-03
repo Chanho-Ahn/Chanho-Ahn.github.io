@@ -8,13 +8,14 @@ tags:
   - data collection
 ---
 
-This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
+Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models, CVPR 2025
+- Allen Institute for AI, University of Washington, University of Pennsylvania
 
-Headings are cool
-======
+Motivation
+-----
+- Open-source vision language 모델의 부족 현상
+- 보통 공개되지 않은 학습 데이터를 만들기 위해 기존 closed VLM을 이용
 
-You can have many headings
-======
-
-Aren't headings cool?
-------
+Overview
+-----
+- PixMo: 데이터를 수집하기 위한 실용적 방안 제안 (LLM을 활용하는 방향으로)
