@@ -67,7 +67,7 @@ publications:
 }
 .pub-card__img{ flex:0 0 260px; }
 .pub-card__img img{ width:100%; height:auto; border-radius:14px; }
-.pub-title{ margin:.1rem 0 .4rem; font-size:1.25rem; line-height:1.25; }
+.pub-title{ margin:.1rem 0 .4rem; font-size:1.1rem; line-height:1.25; }
 .pub-authors{ opacity:.9; margin-bottom:.35rem; }
 .pub-venue{ color:#2761c0; margin-bottom:.5rem; }
 .pub-links a{ display:inline-block; margin-right:.5rem; }
@@ -77,7 +77,7 @@ publications:
 }
 </style>
 
-Hi this is chanho ahn
+I am a Staff Researcher at the Samsung Advanced Institute of Technology (SAIT). I received a Ph.D. in Electrical and Computer Engineering from Seoul National University in 2022. My current research focuses on vision foundation models and vision–language models.
 
 <h2 id="publications">Publications</h2>
 {% for p in page.publications %}
