@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Chanho Ahn"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Chanho Ahn"
 description              : &description "Blog documenting my research, surveys, and projects"
