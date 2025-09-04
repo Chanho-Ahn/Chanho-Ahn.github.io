@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Chanho Ahn"
 author_profile: true
 redirect_from: 
   - /about/
@@ -59,6 +59,7 @@ publications:
     pdf: "/files/nestednet.pdf"
 ---
 <style>
+.page__title{ display:none; }
 .pub-card{
   display:flex; gap:1.25rem; align-items:flex-start;
   padding:1.1rem 1.25rem; background:#f6fbff;
