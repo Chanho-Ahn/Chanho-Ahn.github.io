@@ -10,12 +10,12 @@ publications:
   - title: "Semantic Environment Atlas for Object-Goal Navigation"
     authors: "Nuri Kim, Jeongho Park, Mineui Hong, and Songhwai Oh"
     venue: "Knowledge-Based Systems, Vol. 304, 2024"
-    thumb: "/images/pubs/den.png"
+    thumb: "/images/pub/den.png"
     pdf: "/files/den.pdf"
   - title: "다음 논문 제목"
     authors: "Chanho Ahn, ..."
     venue: "CVPR 2025 (to appear)"
-    thumb: "/images/pubs/avn.png"
+    thumb: "/images/pub/avn.png"
     pdf: "/files/avn.pdf"
 ---
 <style>
