@@ -77,7 +77,7 @@ publications:
 }
 </style>
 
-I am a Staff Researcher at the Samsung Advanced Institute of Technology (SAIT). I received a Ph.D. in Electrical and Computer Engineering from Seoul National University in 2022 and B.S. in Electrical and Computer Engineering from Seoul National University in 2016. My current research focuses on AI agent, vision foundation models, and vision–language models.
+I am a Staff Researcher at the Samsung Advanced Institute of Technology (SAIT). I received a Ph.D. in Electrical and Computer Engineering from Seoul National University in 2022 and B.S. in Electrical and Computer Engineering from Seoul National University in 2016. My current research focuses on AI agent, vision foundation models, and vision–language models. My goal is to create real-world impact through practical algorithm development, with emphasis on efficient adaptation, robustness, and fine-grained visual understanding for industrial applications.
 
 <h2 id="publications">Publications</h2>
 {% for p in page.publications %}
