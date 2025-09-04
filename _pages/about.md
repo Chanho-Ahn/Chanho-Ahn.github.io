@@ -47,7 +47,7 @@ publications:
     venue: "ICCV 2019"
     thumb: "/images/pub/den.png"
     pdf: "/files/den.pdf"
-  - title: "Deep Virtual Networks for Memory Efficieny Inference of Multiple Tasks"
+  - title: "Deep Virtual Networks for Memory Efficiency Inference of Multiple Tasks"
     authors: "Eunwoo Kim, Chanho Ahn, Philip H.S. Torr, and Songhwai Oh"
     venue: "CVPR 2019"
     thumb: "/images/pub/dvn.png"
@@ -63,11 +63,11 @@ publications:
   display:flex; gap:1.25rem; align-items:flex-start;
   padding:1.1rem 1.25rem; background:#f6fbff;
   border:1px solid #e7f1ff; border-radius:18px;
-  box-shadow:0 10px 24px rgba(30,60,90,.08); margin:1rem 0;
+  box-shadow:0 10px 24px rgba(30,60,90,.08); margin:1rem 0; font-size: 0.95rem;
 }
 .pub-card__img{ flex:0 0 260px; }
 .pub-card__img img{ width:100%; height:auto; border-radius:14px; }
-.pub-title{ margin:.1rem 0 .4rem; font-size:1.6rem; line-height:1.25; }
+.pub-title{ margin:.1rem 0 .4rem; font-size:1.25rem; line-height:1.25; }
 .pub-authors{ opacity:.9; margin-bottom:.35rem; }
 .pub-venue{ color:#2761c0; margin-bottom:.5rem; }
 .pub-links a{ display:inline-block; margin-right:.5rem; }
@@ -76,6 +76,8 @@ publications:
   .pub-card__img{ flex:0 0 auto; }
 }
 </style>
+
+Hi this is chanho ahn
 
 <h2 id="publications">Publications</h2>
 {% for p in page.publications %}
