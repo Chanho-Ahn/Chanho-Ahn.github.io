@@ -8,6 +8,8 @@ tags:
   - data parallelism
 ---
 
+DP, DDP, FSDP에 대한 요약 및 DeepSpeed 라이브러리 소개
+
 들어가기에 앞서: Data Parallelism이란?
 -----
 
