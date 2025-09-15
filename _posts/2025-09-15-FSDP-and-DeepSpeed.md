@@ -51,4 +51,9 @@ i번 유닛에서는 0번 유닛 파라미터와 i번 유닛 파라미터의 합
 
 DeepSpeed
 -----
-- PixMo: 데이터를 수집하기 위한 실용적 방안 제안 (LLM을 활용하는 방향으로)
+Microsoft 사에서 발발한 라이브러리로, FSDP에 필요한 메모리를 줄일 수 있는 최적화 도구이다: ZeRO(zero redundancy optimizer).
+* https://www.microsoft.com/en-us/research/blog/ZeRO-deepspeed-new-system-optimizations-enable-training-models-with-over-100-billion-parameters/
+
+위에서 답습한 내용이지만, DeepSpeed의 ZeRO 옵션을 통해 optmizer의 상태(모멘텀, 분산)을 샤딩할지, gradient만 샤당할지, 파라미터까지 샤딩할지를 선택할 수 있다.
+메모리 효율은 아래 그림과 같다:
+https://www.microsoft.com/en-us/research/wp-content/uploads/2020/02/DeepSpeed-Image-1.png<img width="951" height="392" alt="image" src="https://github.com/user-attachments/assets/442ed111-7325-4a2e-96bf-15ded410c35e" />
