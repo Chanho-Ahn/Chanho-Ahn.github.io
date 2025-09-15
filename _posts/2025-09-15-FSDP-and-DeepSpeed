@@ -1,0 +1,31 @@
+---
+title: 'FSDP + DeepSpeed'
+date: 2025-09-15
+permalink: /posts/tool/fsdp_and_deepspeed/
+tags:
+  - accelerate
+  - large model
+  - data parallelism
+---
+
+들어가기에 앞서: Data Parallelism이란?
+-----
+
+모델이 너무 커서 여러 GPU에 데이터를 병렬화 하여 로드하는 방식으로 아래와 같은 단계를 거쳐 이루어진다:
+  1. Scatter: 입력된 데이터 배치를 GPU 개수만큼 등분하여 각 GPU에 할당한다.
+  2. Replicate: 0번 GPU에 저장된 모델 파라미터를 각 GPU에 복사한다.
+  3. Gather: 각 분산된 GPU에서 계산된 모델의 출력 값을 0번 GPU에 모은다.
+  4. Scatter: 전체 loss를 계산한 후 각 GPU에 분산한다.
+  5. Reduce: 각 GPU에서 계산된 gradient를 0번 GPU에서 합산하여 모델을 업데이트 한다.
+
+당연한 얘기지만, 배치에 대해 병렬적으로 gradient가 계산될 수 있는 손실함수에 대해서 작동한다.
+다만, GPU memory가 부족해서 gradient update를 여러 iteration에 나눠하는 방식과 차이점은 DP 방식은 contrastive learning과 같이 두 분산된 배치 간 pair를 구성하는 경우에도 사용가능하고 SyncBN을 통해 BatchNorm 통계를 보다 정확하게 계산할 수 있다.
+
+Motivation
+-----
+- Open-source vision language 모델의 부족 현상
+- 보통 공개되지 않은 학습 데이터를 만들기 위해 기존 closed VLM을 이용
+
+Overview
+-----
+- PixMo: 데이터를 수집하기 위한 실용적 방안 제안 (LLM을 활용하는 방향으로)
